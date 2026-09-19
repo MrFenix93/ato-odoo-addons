@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="account.menu_finance_receivables" model="ir.ui.menu">
+        <field name="group_ids" eval="[
+            (6, 0, [
+                ref('account.group_account_manager'),
+                ref('account_ar_ap_roles.group_account_ar_user')
+            ])
+        ]"/>
+    </record>
+
+    <record id="account.menu_finance_payables" model="ir.ui.menu">
+        <field name="group_ids" eval="[
+            (6, 0, [
+                ref('account.group_account_manager'),
+                ref('account_ar_ap_roles.group_account_ap_user')
+            ])
+        ]"/>
+    </record>
+
+</odoo>
