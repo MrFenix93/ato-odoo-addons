@@ -19,7 +19,7 @@ Originally developed by Luis Rodrigo Mejia Mateus.
 Updated for Odoo 19 and enhanced with mobile printing support by ATO Solution.
     """,
 
-    "author": "Luis Rodrigo Mejia Mateus, ATO Solution",
+    "author": "Ato Solution",
     "website": "https://ato-solution.com",
     "category": "Productivity",
     "license": "LGPL-3",
